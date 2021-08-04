@@ -60,7 +60,6 @@ public class AVLTree {
                 }
             } else {
                 System.out.println(target + " removed from tree");
-                this.display();
                 if (current.getRightNode() != null) {
                     parent = current.getRightNode();
                     while (parent.getLeftNode() != null) {

@@ -33,6 +33,8 @@ public class BinaryTreeWordFinder {
            } else if (input.equalsIgnoreCase("Close")) {
                System.out.println("Thanks for using the word finder!");
                running = false;
+           } else {
+               System.out.println("Please try again");
            }
        }
     }
